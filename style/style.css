@@ -1,0 +1,115 @@
+body{
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bottons{
+    z-index: 1;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+img[name="cart"]{
+    position: absolute;
+    width: 4.27%;
+    height: 7.59%;
+    left: 91.7%;
+    top: 1.759%;
+}
+
+img[name="contact"]{
+    position: absolute;
+    width: 5.47%;
+    height: 9.72%;
+    left: 86.5%;
+    top: 0.75%;
+}
+
+img[name="logo"]{
+    position: absolute;
+    width: 5.36%;
+    height: 9.075%;
+    left: 3.385%;
+    top: 1.02%;
+}
+
+.firstrectingale{
+    position: absolute;
+    width: 100%;
+    height: 11.5%;
+    left: 0%;
+    background: #FFFFFF;
+    top: 0%;
+    z-index: 0;
+}
+
+h1[name="text_WF"]{
+    position: absolute;
+    width: 33.5%;
+    height: 21.7%;
+    left: 33.23%;
+    top: 24%;   
+    font-family: 'Qristalla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5vw;
+    line-height: 26%; 
+    color: #FFFFFF; 
+    text-shadow: 0px 4px 4px #458C8D, 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+div[name="nova_text"]{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #458C8D;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited, li:focus, li:hover{
+    text-decoration: none;
+    color: #458C8D;
+}
+
+li[name="menu"]{
+    position: absolute;
+    width: 96px;
+    height: 36px;
+    left: 583px;
+    top: 42px;
+    text-decoration: none;
+}
+
+li[name="discount"]{
+    position: absolute;
+    width: 154px;
+    height: 36px;
+    left: 737px;
+    top: 42px;   
+}
+
+
+li[name="story"]{
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 949px;
+    top: 42px;
+}
+
+
+li[name="faq"]{
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 1186px;
+    top: 42px;
+}
